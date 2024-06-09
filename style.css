@@ -1,0 +1,51 @@
+/* index page css*/
+/* full height and width background image */
+
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.banner{
+	
+	background-image: url("Images/background.jpg");
+	/*full height*/
+	height: 100%;
+	/* image property */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* navigation bar */
+.navigation{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+}
+.left-nav-links{
+    padding: 25px 10%;
+    width: 60%;
+}
+.right-nav-login{
+    padding-top: 25px;
+    width: 10%;
+    ;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navigation li{
+    float: left;
+}
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+    text-size-adjust: 15;
+}
